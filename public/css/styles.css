@@ -3,7 +3,7 @@
 body {
 	/*font-family: 'Alfa Slab One', cursive;*/
 	background-color: rgba(41,43,44,1);
-	color: rgba(220,230,240,1);
+	/*color: rgba(220,230,240,1);*/
 }
 
 a.navbar-brand {
@@ -19,6 +19,20 @@ a.navbar-brand {
 	padding: 0;
 }
 
+.viewport-container.img { 
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;	
+}
+
+.viewport-container.img.one{
+	background: url(/images/bkg-slide-1.jpg) no-repeat top center fixed; 
+}
+
+.viewport-container.img.two{
+	background: url(/images/weepeevers-9.jpg) no-repeat center center fixed; 
+}
 
 .display-center-container {
 	position: relative;
@@ -26,6 +40,10 @@ a.navbar-brand {
 	margin-top: 21vh;
 	font-family: 'Permanent Marker', cursive;
 	/*border: 1px solid black;*/
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: 'Permanent Marker', cursive;
 }
 
 .display-center-container h1 {
@@ -38,8 +56,20 @@ a.navbar-brand {
 	/*font-size: 3.5vw; Full Screen*/
 }
 
+.col-12.image-1 {
+/*  background: url(/images/weepeevers-1.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 300px;*/
+}
 
-
+#image-1 {
+	position: relative;
+	display: block;
+	width: 100%;
+}
 
 
 
@@ -52,9 +82,14 @@ a.navbar-brand {
 	margin: 20px auto 0px auto;
 }
 
+.dark.card {
+	background-color: rgba(0,0,0,0.75);
+	color: rgba(220,230,240,1);
+}
 
-
-
+.navbar.bg-inverse {
+	background-color: rgba(0,0,0,0.7) !important;
+}
 
 
 
